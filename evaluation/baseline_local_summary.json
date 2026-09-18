@@ -1,0 +1,18 @@
+{
+  "benchmark": "benchmark/benchmark_120.json",
+  "mode": "local",
+  "generated_at": "2026-09-18T14:17:26.653296+00:00",
+  "total_cases": 120,
+  "metrics": {
+    "task_completion": {"passed": 118, "total": 120, "rate": 0.9833},
+    "routing_accuracy": {"passed": 75, "total": 75, "rate": 1.0},
+    "retrieval_hit_rate": {"passed": 97, "total": 97, "rate": 1.0},
+    "tool_selection_accuracy": {"passed": 20, "total": 20, "rate": 1.0},
+    "parameter_accuracy": {"passed": 20, "total": 20, "rate": 1.0},
+    "clarification_accuracy": {"passed": 120, "total": 120, "rate": 1.0},
+    "refusal_accuracy": {"passed": 120, "total": 120, "rate": 1.0}
+  },
+  "latency_ms": {"average": 9.98, "p95": 24.57},
+  "failed_case_ids": ["BM080", "BM119"],
+  "scope_note": "Deterministic local baseline on bundled synthetic data; not an OpenAI model quality claim or production SLA."
+}

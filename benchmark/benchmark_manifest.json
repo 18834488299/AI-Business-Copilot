@@ -1,0 +1,23 @@
+{
+  "name": "NovaMed AI Business Copilot Benchmark",
+  "fictional": true,
+  "seed": 20260918,
+  "total": 120,
+  "category_counts": {
+    "Knowledge/RAG": 25,
+    "数据查询": 30,
+    "Tool参数": 20,
+    "综合分析": 25,
+    "无答案/异常": 10,
+    "多轮": 10
+  },
+  "data_period": {
+    "from": "2026-07-06",
+    "to": "2026-08-30",
+    "weeks": 8
+  },
+  "generated_files": [
+    "benchmark/benchmark_120.json",
+    "benchmark/benchmark_120.jsonl"
+  ]
+}
